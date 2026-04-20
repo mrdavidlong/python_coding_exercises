@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m pytest test_all_question_set2.py -v)"
+    ]
+  }
+}

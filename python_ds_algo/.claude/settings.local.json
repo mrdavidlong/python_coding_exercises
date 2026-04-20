@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rsync -av --exclude='*_test.py' --exclude='.DS_Store' --exclude='.claude' --exclude='.vscode' /Users/davidlong/code/interview/coding-interview-patterns/python3/ /Users/davidlong/code/interview/python_ds_algo/)",
+      "Bash(find *)",
+      "Bash(python bst_operations_test.py)",
+      "Bash(python *)",
+      "Bash(pip install *)",
+      "Bash(pytest *)"
+    ]
+  }
+}
