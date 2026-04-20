@@ -51,7 +51,7 @@ def flatten_telemetry(
         e.g. {"device":"plc-01","readings.cpu.pct":45.2,"readings.mem_mb":512}
     """
     result: dict[str, Any] = {}
-    for key, value in data.items(): #remember to do data.items(), not just
+    for key, value in data.items(): #remember to do data.items(), not just data
         # Build the fully qualified key: prefix + separator + key, or just key at root
         full_key = f"{prefix}{separator}{key}" if prefix else key
 
