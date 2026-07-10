@@ -10,6 +10,8 @@ exercise catalog.
 
 ```
 Graphs/          BFS, DFS, Dijkstra, topological sort, cycle detection, MST, Union-Find
+Arrays/          Dynamic array implementing MutableSequence
+Hash_Tables/     Chaining and linear-probing MutableMapping implementations
 Heaps/           Min-heap (array + tree), heapify, heapsort
 Intervals/       Interval data structure and operations
 Sort and Search/ Bubble, merge, quick, counting, radix, bucket, insertion, selection sort

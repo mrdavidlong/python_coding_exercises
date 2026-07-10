@@ -80,7 +80,7 @@ Acceptance checks:
 
 ## Phase 1: Dynamic array and the sequence protocol
 
-Status: planned
+Status: complete
 
 Proposed files:
 
@@ -113,7 +113,7 @@ indexes, invalid indexes, iteration, mixed value types, and order preservation.
 
 ## Phase 2: Hash tables and polymorphic collision strategies
 
-Status: planned
+Status: complete
 
 Proposed files:
 
