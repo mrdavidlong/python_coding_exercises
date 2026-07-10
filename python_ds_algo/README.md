@@ -15,8 +15,10 @@ Hash_Tables/     Chaining and linear-probing MutableMapping implementations
 Heaps/           Min-heap (array + tree), heapify, heapsort
 Intervals/       Interval data structure and operations
 Python_Fundamentals/  Mutability, iteration, generators, and data models
+Range_Queries/   Fenwick tree for prefix and range sums
 Sort and Search/ Bubble, merge, quick, counting, radix, bucket, insertion, selection sort
 Stacks/          Stack and queue implementations
+String_Algorithms/  Knuth-Morris-Pratt substring search
 Trees/           Binary search tree operations
 ```
 

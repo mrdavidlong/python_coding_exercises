@@ -253,7 +253,7 @@ heap problems from the reference repository.
 
 ## Phase 7: KMP string search
 
-Status: planned
+Status: complete
 
 Proposed files:
 
@@ -271,7 +271,7 @@ This algorithm was not present in the reviewed Python reference catalog.
 
 ## Phase 8: Fenwick tree
 
-Status: optional
+Status: complete
 
 Proposed files:
 
