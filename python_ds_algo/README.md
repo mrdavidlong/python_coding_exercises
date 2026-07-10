@@ -14,6 +14,7 @@ Arrays/          Dynamic array implementing MutableSequence
 Hash_Tables/     Chaining and linear-probing MutableMapping implementations
 Heaps/           Min-heap (array + tree), heapify, heapsort
 Intervals/       Interval data structure and operations
+Python_Fundamentals/  Mutability, iteration, generators, and data models
 Sort and Search/ Bubble, merge, quick, counting, radix, bucket, insertion, selection sort
 Stacks/          Stack and queue implementations
 Trees/           Binary search tree operations

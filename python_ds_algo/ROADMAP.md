@@ -154,7 +154,7 @@ resize, missing-key, and invalid-capacity cases.
 
 ## Phase 3: Mutability and copying
 
-Status: planned
+Status: complete
 
 Proposed files:
 
@@ -177,7 +177,7 @@ Tests should assert both values and identities so the behavior is explicit.
 
 ## Phase 4: Iteration, comprehensions, and sorting semantics
 
-Status: planned
+Status: complete
 
 Proposed files:
 
@@ -202,7 +202,7 @@ input was mutated.
 
 ## Phase 5: Iterators and generators
 
-Status: planned
+Status: complete
 
 Proposed files:
 
@@ -228,7 +228,7 @@ already covered in the reference repository.
 
 ## Phase 6: Dataclasses and the Python object model
 
-Status: planned
+Status: complete
 
 Proposed files:
 
