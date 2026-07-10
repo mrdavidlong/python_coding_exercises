@@ -1,4 +1,4 @@
-from stack import Stack
+from Stacks.stack import Stack
 
 
 def test_push_and_pop():

@@ -1,4 +1,4 @@
-from queue import Queue
+from Stacks.queue import Queue
 
 
 def test_fifo_order():

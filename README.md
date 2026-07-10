@@ -32,6 +32,28 @@ cd security_analytics_exercises
 pytest
 ```
 
+## Debugging pytest in VS Code
+
+Set a breakpoint inside a test or implementation and start the test with a
+VS Code pytest debug configuration. If the test runs in the terminal but an
+editor breakpoint is skipped, temporarily add an explicit debugpy breakpoint
+inside the test:
+
+```python
+def test_example():
+    import debugpy
+    debugpy.breakpoint()
+
+    result = function_under_test()
+    assert result == expected
+```
+
+Run the test with **Debug Test at Cursor** or the workspace's **Debug current
+pytest file** configuration. After VS Code pauses at `debugpy.breakpoint()`,
+stop the debugging session, remove the `import debugpy` and
+`debugpy.breakpoint()` lines, and start debugging again. Normal editor
+breakpoints should then work. Do not commit the temporary debugpy lines.
+
 ## Notes
 
 - Most exercises are small, focused Python modules with matching tests.
