@@ -9,7 +9,10 @@ This repository is a collection of Python practice projects focused on data stru
 
 ## Getting Started
 
-Each project is self-contained. From the project you want to work in, run its tests with `pytest`.
+Each project is self-contained. The data-structures project declares its
+development dependency in `python_ds_algo/pyproject.toml` and can be installed
+with `python -m pip install -e 'python_ds_algo[dev]'` from the repository root.
+From either project directory, run its tests with `pytest`.
 
 From the repository root, run both test suites with:
 

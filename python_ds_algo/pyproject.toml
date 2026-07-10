@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-ds-algo-exercises"
+version = "0.1.0"
+description = "Study implementations of Python data structures and algorithms"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "Arrays",
+    "Graphs",
+    "Hash_Tables",
+    "Heaps",
+    "Python_Fundamentals",
+    "Range_Queries",
+    "Sort and Search",
+    "Stacks",
+    "String_Algorithms",
+    "Trees",
+    "collections",
+]
+python_files = ["test_*.py", "*_test.py"]
+pythonpath = ["."]
+addopts = "--strict-markers"
+
+[tool.setuptools]
+packages = []

@@ -2,6 +2,10 @@
 
 Data structures and algorithm implementations in Python, organized by topic.
 
+See [ROADMAP.md](ROADMAP.md) for planned Python fundamentals and additional
+data structures that do not duplicate the local `coding-interview-patterns`
+exercise catalog.
+
 ## Structure
 
 ```
@@ -15,7 +19,14 @@ Trees/           Binary search tree operations
 
 ## Running tests
 
-Requires Python 3 and pytest.
+Requires Python 3.10 or newer. Create a fresh virtual environment and install
+the development dependency from this directory:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -e '.[dev]'
+```
 
 ```bash
 # Run all tests
@@ -27,8 +38,12 @@ pytest Trees/
 pytest "Sort and Search/"
 
 # Run a single test file
-pytest Graphs/graphs_test.py
+pytest Graphs/test_graphs.py
 
 # Verbose output
 pytest -v
 ```
+
+The same suite can also be run from the parent repository with
+`pytest python_ds_algo`. Run `bash run_all_tests.sh` there to test both
+exercise projects.
